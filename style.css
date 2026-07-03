@@ -1,0 +1,64 @@
+/* Resetting default margins and padding to ensure consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body to set a clean font and background color */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling to center text and give it a professional dark background */
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Styling the main content layout and sections */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+}
+
+/* Styling the interactive button */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Changing button color when the user hovers over it */
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer styling centered at the bottom */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
